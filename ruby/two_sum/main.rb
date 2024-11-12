@@ -6,8 +6,8 @@ def two_sum(nums, target)
   end
 end
 
-array = gets.chomp.split.map(&:to_i)
+array = gets.chomp.split(',').map(&:to_i)
 n = gets.chomp.to_i
-puts "nums: ${array}"
-puts "target: ${n}"
+puts "nums: #{array}"
+puts "target: #{n}"
 puts two_sum(array, n)
