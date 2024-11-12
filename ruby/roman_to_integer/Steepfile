@@ -1,0 +1,6 @@
+target :app do
+  check "app"
+  signature "sig"
+  ignore "test"
+  vendor "vendor/bundle"
+end
